@@ -11,4 +11,8 @@ public class MediumBuildingFactory extends BuildingFactory {
    public Condo getCondo(){
 	  return new MediumCondo();
    }
+   
+   public SemiDetacher getSemiDetacher(){
+	   return new MediumSemiDetacher();
+   }
 }

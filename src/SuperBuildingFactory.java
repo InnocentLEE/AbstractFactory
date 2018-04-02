@@ -13,4 +13,8 @@ public class SuperBuildingFactory extends BuildingFactory {
    public Condo getCondo(){
 	  return new SuperCondo();
    }
+   
+   public SemiDetacher getSemiDetacher(){
+	   return new SuperSemiDetacher();
+   }
 }

@@ -7,6 +7,7 @@ public abstract class BuildingFactory{
 
   	public abstract House getHouse();
   	public abstract Condo getCondo();
+  	public abstract SemiDetacher getSemiDetacher();
 
   	public static BuildingFactory getBuildingFactory(String type){
   		 BuildingFactory bf = null;

@@ -147,6 +147,11 @@ public class AbstractFactoryGUI extends JFrame {
 		    else if (type.equals(AbstractFactoryGUI.SEMIDETACHER)) {
 			 	 // Need code here
 		     }*/
+		    else if (type.equals(AbstractFactoryGUI.SEMIDETACHER)) {
+			 	 SemiDetacher sd = bf.getSemiDetacher();
+			 	 String fileNm = sd.getSemiDetacherInfo();
+			 	 putHouseInfoToScreen(fileNm);
+		     }
           }
       }
 
